@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <style>
+      body {
+        font-family: "Arial", "Arial";
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background: #AF8260;
+      }
+
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        min-height: 100vh;
+        align-items: stretch;
+        border: 10px solid white;
+        margin: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .brown-side,
+      .white-side {
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: baseline;
+        align-items: center;
+      }
+
+      .brown-side {
+        background-color: #E4C59E;
+        flex: 0.8;
+      }
+
+      .white-side {
+        background-color: #fff;
+        flex: 1.2;
+      }
+
+      .section,
+      .profile-section,
+      .white-section {
+        width: 100%;
+        text-align: left;
+        margin-bottom: 20px;
+      }
+
+      .profile-section {
+        text-align: center;
+      }
+
+      .profile-pic {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+        border: 5px solid white;
+        object-fit: cover;
+      }
+
+      .social-media-icons {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+      }
+
+      .social-media-icons img {
+        width: 30px;
+        height: 30px;
+        margin: 0 10px;
+      }
+
+      .about_me,
+      .one,
+      .second,
+      .fifth {
+        font-size: 22px;
+        margin-bottom: 10px;
+        justify-content: center;
+      }
+
+      .one {
+        font-size: 25px;
+      }
+
+      .second {
+        font-size: 20px;
+      }
+
+      .sixth,
+      .third {
+        color: rgb(56, 56, 56);
+        font-size: 16px;
+      }
+
+      .fifth {
+        font-size: 18px;
+      }
+
+      .seventh{
+        color: rgb(56, 56, 56);
+        font-size: 17px;
+      }
+
+      .eight {
+      color: rgb(56, 56, 56);
+      margin-bottom: 0;
+      margin-left: 40px;
+    }
+
+      @media (max-width: 768px) {
+        .container {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="brown-side">
+        <img src="adelia.jpeg" alt="Profile Picture" class="profile-pic" />
+        <div class="profile-section">
+          <strong class="one">Adelia Putri</strong><br />
+          <span class="third">2225230083@untirta.ac.id</span>
+        </div>
+        <div class="profile-section">
+          <strong class="second">Mathematics Education Students</strong><br />
+          <span class="third">Universiy of Sultan Ageng Tirtayasa</span>
+        </div>
+        <div class="social-media-icons">
+          <a href="https://www.facebook.com/yourusername" target="_blank">
+            <img src="fb.png" style="width: 30px; height: 30px" />
+          </a>
+          <a href="https://www.twitter.com/yourusername" target="_blank">
+            <img src="twitter.png" style="width: 30px; height: 30px" />
+          </a>
+          <a href="https://www.instagram.com/yourusername" target="_blank">
+            <img src="ig.png" style="width: 30px; height: 30px" />
+          </a>
+          <a href="https://www.tiktok.com/@yourusername" target="_blank">
+            <img src="tiktok.png" style="width: 30px; height: 30px" />
+          </a>
+          <a href="https://www.github.com/yourusername" target="_blank">
+            <img src="github.png" style="width: 30px; height: 30px" />
+          </a>
+        </div>
+        <hr
+          style="
+            border-top: 2px solid #333;
+            width: 100%;
+            margin-bottom: 20px auto;
+          "
+        />
+        <div class="about_me">
+          <strong class="fourth">About Me</strong>
+        </div>
+        <div class="section">
+          <strong class="fifth">Profile</strong><br />
+          <span class="sixth"
+            >I am a student at Sultan Ageng Tirtayasa University, majoring in mathematics education class in 2023. With patience and confidence, can complete the job well. I have an interest in editing andelectricity, as well as some sports coaching experience and quitegood academic performance.</span>
+        </div>
+        <div class="section">
+          <strong class="fifth">Motto</strong><br />
+          <span class="sixth">Be who you are, not be other people.</span>
+        </div>
+        <div class="section">
+          <strong class="fifth">Skills</strong><br />
+          <span class="sixth">Microsoft word</span><br />
+          <span class="sixth">Microsoft Power Point</span><br />
+          <span class="sixth">Canva</span><br />
+          <span class="sixth">Capcut</span><br />
+          <span class="sixth">Google Docs</span><br />
+          <span class="sixth">Snapseed</span><br />
+          <span class="sixth">Phonto</span><br />
+          <span class="sixth">VSCO</span>
+        </div>
+        <div class="section">
+          <strong class="fifth">Interests</strong><br />
+          <span class="sixth">Nature</span><br />
+          <span class="sixth">Sunset</span><br />
+          <span class="sixth">Sport</span><br />
+          <span class="sixth">Music</span><br />
+          <span class="sixth">Design</span><br />
+          <span class="sixth">Photography</span><br />
+          <span class="sixth">Engineering</span><br />
+          <span class="sixth">Travelling</span>
+        </div>
+        <div class="section">
+          <strong class="fifth">Languages</strong><br />
+          <span class="sixth">Indonesian</span><br />
+          <span class="sixth">English</span>
+        </div>
+        <div class="section">
+          <strong class="fifth">Phone</strong><br />
+          <span class="sixth">+62 895-1002-6260</span>
+        </div>
+      </div>
+      <div class="white-side">
+        <div class="white-section">
+          <img
+            src="experience.png"
+            alt="Experience"
+            style="
+              width: 25px;
+              height: 25px;
+              vertical-align: middle;
+              margin-right: 10px;
+            "
+          />
+          <strong class="fifth">Experience</strong>
+        <p class="eight">PASI Kab. Serang</p>
+        <span class="eight">Sprint Athlete - 2017-2020</span><br>
+        <p class="eight">PASI Kota Cilegon</p>
+        <span class="eight">Sprint Athlete - 2017-2020</span><br> 
+        </div>
+        <hr
+          style="border-top: 2px solid #333; width: 100%; margin: 20px auto"
+        />
+        <div class="white-section">
+          <img
+            src="certificate.png"
+            alt="Certificate"
+            style="
+              width: 25px;
+              height: 25px;
+              vertical-align: middle;
+              margin-right: 10px;
+            "
+          />
+          <strong class="fifth">Certificate</strong>
+          <p class="seventh" style="margin-left: 40px;">Athlete Legalization - Prov. Banten (2023)</p>
+          <p class="seventh" style="margin-left: 40px;"> place for the best junior high school student 2020</p>
+          <p class="seventh" style="margin-left: 40px;"> Level 100-meter Run (2019)</p>
+          <p class="seventh" style="margin-left: 40px;"> Place in Indonesia Scouts Challenge </p>
+          
+        </div>
+        <hr
+          style="border-top: 2px solid #333; width: 100%; margin: 20px auto"
+        />
+        <div class="white-section">
+          <img
+            src="education.png"
+            alt="Education"
+            style="
+              width: 25px;
+              height: 25px;
+              vertical-align: middle;
+              margin-right: 10px;
+            "
+          />
+          <strong class="fifth">Education</strong>
+          <p class="eight">University Student</p>
+          <span class="eight">Sultan Ageng Tirtayasa University</span><br>
+          <span class="eight">2023-now</span><br>
+          <p class="eight">SMKN 1 CILEGON</p>
+          <span class="eight">Industrial Electronics Engineering</span><br> 
+          <span class="eight">2020-2023</span><br> 
+          <p class="eight">SMPN 3 KRAMATWATU</p>
+          <span class="eight">2017-2020</span><br> 
+          <p class="eight">SDN HARJATANI</p>
+          <span class="eight">2011-2017</span><br> 
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
